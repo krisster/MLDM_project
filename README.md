@@ -18,3 +18,9 @@ For this challenge you are given the purchase history of customers across time, 
 - **transactions_train.csv** - the training data, consisting of the purchases each customer for each date, as well as additional information. Duplicate rows correspond to multiple purchases of the same item. 
 
 **Your task is to predict the article_ids each customer will purchase during the 7-day period immediately after the training data period**
+
+### Project progress
+
+- **Nov, 19** - the intermidiate report where we make statistics according to data and evaluate KMeans
+- **Dec, 1** - the data cut and evaluation of model according topopular item list
+
