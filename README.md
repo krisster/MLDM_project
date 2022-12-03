@@ -24,3 +24,8 @@ For this challenge you are given the purchase history of customers across time, 
 - **Nov, 19** - the intermidiate report where we make statistics according to data and evaluate KMeans
 - **Dec, 1** - the data cut and evaluation of model according topopular item list
 
+**Modifications**
+
+Additionally to our previous report we add a simple model of recommendations according to popularity among users. So, get the same recommended items for all users
+Also we have tried to provide a collaborative filtering model to predict recommendations according to similarity of items among users. To do this we use a cosine similarity 
+For final model we'd like to a little bit modify KMeans method and individualize predictions using a previous collaborative filtering method (now we have the same recommendations for all)
