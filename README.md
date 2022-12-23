@@ -29,5 +29,12 @@ For this challenge you are given the purchase history of customers across time, 
 **Modifications**
 
 Additionally to our previous report we add a simple model of recommendations according to popularity among users. So, get the same recommended items for all users
+
 Also we have tried to provide a collaborative filtering model to predict recommendations according to similarity of items among users. To do this we use a cosine similarity 
+
 For final model we'd like to a little bit modify KMeans method and individualize predictions using a previous collaborative filtering method (now we have the same recommendations for all)
+
+**Updated**
+For the last version we have models (collaborative filtering with KNN and ALS) that make individual predictions based on the similarity of items. So, for example, if I bought black jeans I will be interested in bluejeans but different model
+
+However, we have two problems: the first one is that this scheme maybe relevant for books/films. But it is better to find similar customers and recommend to buy things that they haven't bought. The second one is that ALS doesn't work correctly
