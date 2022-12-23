@@ -22,7 +22,9 @@ For this challenge you are given the purchase history of customers across time, 
 ### Project progress
 
 - **Nov, 19** - the intermidiate report where we make statistics according to data and evaluate KMeans
-- **Dec, 1** - the data cut and evaluation of model according topopular item list
+- **Dec, 1** - the data cut and evaluation of model according top-popular item list
+- **Dec, 3** - added methods of collaborative filtring
+- **Dec, 23** - add more deepen methods of collaborative filtering: use KNN and ALS. Unfortunetaly, ALS doesn't work properly
 
 **Modifications**
 
